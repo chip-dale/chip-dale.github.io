@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0068A0;
+	width: 100%;
+}
+#header {
+	color: white;
+	height: 250px;
+	background-image: url(../images/bg.jpg);
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	padding: 0px;
+	text-align: center;
+}
+#header .container {
+	margin: 0px auto 0;
+	position: relative;
+}
+#header img{
+	width: 150px;
+	border: none;
+	position: absolute;
+	left: 120px; top: 80px;
+}
+#nav {
+	display: block;
+	width: 100%;
+	position: fixed;
+	left: 0px; top: 0px;
+	background: rgba(77, 93, 104, 0.5);
+}
+#nav ul {
+	margin: 0px auto;
+	padding: 0;
+}
+#nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#nav ul li a {
+	padding: 1em 1.5em;
+	margin: 0;
+	display: block;
+	color: white;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #4D5D68;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#nav ul li a:hover {
+	background: #FFAB51;
+}
+.container {
+	width: 100%; /* Ширина слоя */
+	margin: 10px auto 80px; /* Выравнивание по центру */
+	padding:0;
+}
+#left, #right {
+	width: 100px; /* Ширина слоя */
+	padding: 5px; /* Отступы вокруг текста */
+}
+#left {
+	float: left; /* Обтекание по правому краю */
+}
+#right {
+	float: right; /* Обтекание по правому краю */
+}
+#content {
+	margin: 10px 120px; /* Отступ на ширину левой и правой колонки*/
+	padding: 10px; /* Поля вокруг текста */
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 8px;
+}
+#footer {
+	position: fixed; /* Фиксированное положение */
+	left: 0; bottom: 0; /* Левый нижний угол */
+	margin: 100px 0 0;
+	padding: 10px 0; /* Поля вокруг текста */
+	background-color: #0068A0; /* Цвет фона */
+	border-width: 1px 0 0;
+	border-style: solid;
+	border-color: /*#4D5D68*/#FFAB51;
+	color: #fff; /* Цвет текста */
+	width: 100%; /* Ширина слоя */
+	height: 50px;
+	text-align: center; /* Выравнивание текста по центру */
+}
+#footer .container {
+	width: 100%;
+}
