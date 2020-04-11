@@ -12,10 +12,10 @@ body {
 	background-image: url(../images/bg.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-size: auto 500px !important;
-	-webkit-background-size: auto 500px !important;
-	-o-background-size: auto 500px !important;
-	-moz-background-size: auto 500px !important;
+	background-size: 100% auto !important;
+	-webkit-background-size: 100% auto !important;
+	-o-background-size: 100% auto !important;
+	-moz-background-size: 100% auto !important;
 	background-attachment: fixed;
 	padding: 0px;
 	text-align: center;
