@@ -8,15 +8,15 @@ body {
 }
 #header {
 	color: white;
-	height: 250px;
+	height: 350px;
+	background-attachment: fixed;
 	background-image: url(../images/bg.jpg);
 	background-position: top;
-	background-repeat: repeat-x;
-	background-attachment: fixed;
-	background-size: contain !important;
-	-webkit-background-size: contain !important;
-	-o-background-size: contain !important;
-	-moz-background-size: contain !important;
+	background-repeat: no-repeat;
+	background-size: auto 500px !important;
+	-webkit-background-size: auto 500px !important;
+	-o-background-size: auto 500px !important;
+	-moz-background-size: auto 500px !important;
 	padding: 0px;
 	text-align: center;
 	position: relative;
@@ -35,7 +35,7 @@ body {
 	display: block;
 	width: 100%;
 	position: fixed;
-	left: 0px; top: 200px;
+	left: 0px; top: 300px;
 	background: rgba(83, 93, 103, 0.7);
 	z-index: 1000000;
 }
