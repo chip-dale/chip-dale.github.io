@@ -119,6 +119,7 @@ body {
 	text-align: center;
 	font-family: monospace;
 	vertical-align: middle;
+	z-index: 1000000;
 }
 #footer a img {
 	text-decoration: none;
