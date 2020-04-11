@@ -14,6 +14,9 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-moz-background-size: contain;
 	padding: 0px;
 	text-align: center;
 	position: relative;
