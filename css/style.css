@@ -10,7 +10,7 @@ body {
 	color: white;
 	height: 250px;
 	background-image: url(../images/bg.jpg);
-	background-position: 50% 0%;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
