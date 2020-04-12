@@ -12,7 +12,7 @@ body {
 	background-image: url(../images/bg.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-size: 100% auto !important;
+	background-size: 100% !important;
 	-webkit-background-size: 100% auto !important;
 	-o-background-size: 100% auto !important;
 	-moz-background-size: 100% auto !important;
@@ -75,7 +75,7 @@ body {
 }
 #container {
 	width: 100%;
-	margin: 10px auto 50px; /* Выравнивание по центру */
+	margin: 20px auto 70px; /* Выравнивание по центру */
 	padding:0;
 }
 #left, #right {
