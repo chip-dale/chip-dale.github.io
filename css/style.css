@@ -119,17 +119,17 @@ body {
 	text-align: center;
 	font-family: monospace;
 	vertical-align: middle;
-	z-index: 1000000;
+	z-index: 1000001;
 }
 #footer a img {
 	text-decoration: none;
 	border: none;
-	height: 20px;
-	margin: 0 3px;
+	height: 25px;
+	margin: 0 5px;
 	vertical-align: middle;
 }
 #footer span {
 	font-size: small;
-	font-family: Times New Roman, serif;
+	font-family: Calibri, Verdana, sans-serif;
 	vertical-align: middle;
 }
