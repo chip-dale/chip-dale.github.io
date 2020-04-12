@@ -79,7 +79,7 @@ body {
 	padding:0;
 }
 #left, #right {
-	width: 100px;
+	width: 130px;
 	padding: 5px; /* Отступы вокруг текста */
 	text-align:center;
 }
@@ -90,7 +90,7 @@ body {
 	float: right; /* Обтекание по правому краю */
 }
 #content {
-	margin: 10px 120px; /* Отступ на ширину левой и правой колонки*/
+	margin: 10px 150px; /* Отступ на ширину левой и правой колонки*/
 	padding: 10px; /* Поля вокруг текста */
 	/*background: rgba(255, 255, 255, 0.8); /* white */
 	background: #E6E6FA;
