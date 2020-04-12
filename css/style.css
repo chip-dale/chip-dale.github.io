@@ -93,7 +93,8 @@ body {
 	margin: 10px 150px; /* Отступ на ширину левой и правой колонки*/
 	padding: 10px; /* Поля вокруг текста */
 	/*background: rgba(255, 255, 255, 0.8); /* white */
-	background: #E6E6FA;
+	background-color: white/*#E6E6FA*/;
+	background-image: url(../images/bg02.png);
 	border-radius: 10px;
 }
 #content p{
