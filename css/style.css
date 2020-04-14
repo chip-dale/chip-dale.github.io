@@ -1,10 +1,17 @@
-body {
+* {
 	margin: 0;
 	padding: 0;
+}
+body {
 	background-color: #33689D;
 	width: 100%;
 	font-family: Times New Roman, serif;
 	font-size: 12pt;
+}
+a, a img {
+	border: 0;
+	text-decoration: none;
+	outline: 0;
 }
 #header {
 	color: white;
@@ -12,18 +19,16 @@ body {
 	background-image: url(../images/bg.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-size: 100% !important;
+	background-size: 100% auto !important;
 	-webkit-background-size: 100% auto !important;
 	-o-background-size: 100% auto !important;
 	-moz-background-size: 100% auto !important;
 	background-attachment: fixed;
-	padding: 0px;
 	text-align: center;
 	position: relative;
 }
 #logo{
 	width: 120px;
-	border: none;
 	position: absolute;
 	left: 60px; bottom: 60px;
 }
@@ -41,24 +46,19 @@ body {
 }
 #nav ul {
 	margin: 0px auto;
-	padding: 0;
 }
 #nav ul li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0;
-	padding: 0;
 }
 #nav ul li a {
 	padding: 1em;
-	margin: 0;
 	display: block;
 	color: white;
 	border-width: 1px;
 	border-style: solid;
 	border-color: transparent;
 	border-radius: 8px;
-	text-decoration: none;
 	text-shadow: 1px 1px 2px black;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -77,11 +77,10 @@ body {
 #container {
 	width: 100%;
 	margin: 20px auto 70px; /* Выравнивание по центру */
-	padding:0;
 }
 #left, #right {
-	width: 130px;
-	padding: 5px; /* Отступы вокруг текста */
+	width: 200px;
+	margin: 5px; /* Отступы вокруг текста */
 	text-align:center;
 }
 #left {
@@ -91,27 +90,17 @@ body {
 	float: right; /* Обтекание по правому краю */
 }
 #content {
-	margin: 10px 150px; /* Отступ на ширину левой и правой колонки*/
+	margin: 10px 220px; /* Отступ на ширину левой и правой колонки*/
 	padding: 10px; /* Поля вокруг текста */
 	/*background: rgba(255, 255, 255, 0.8); /* white */
 	background-color: white/*#E6E6FA*/;
 	background-image: url(../images/bg02.png);
 	border-radius: 10px;
 }
-#content p{
-	height: 800px;
-	background-image: url(../images/molbert_man.png);
-	background-position: 50% 0%;
-	background-repeat: no-repeat;
-	background-attachment: ;
-	background-size: contain;
-	text-align: center;
-}
 #footer {
 	position: fixed; /* Фиксированное положение */
 	left: 0; bottom: 0; /* Левый нижний угол */
-	margin:0;
-	padding:10px 0;
+	padding: 10px 0;
 	background-color: #33689D;
 	border-width: 1px 0 0;
 	border-style: solid;
@@ -119,19 +108,15 @@ body {
 	color: white;
 	width: 100%;
 	text-align: center;
-	font-family: monospace;
-	vertical-align: middle;
+	font-size: small;
+	font-family: Calibri, Verdana, sans-serif;
 	z-index: 1000001;
 }
 #footer a img {
-	text-decoration: none;
-	border: none;
 	height: 25px;
-	margin: 0 5px;
+	margin: 0 10px;
 	vertical-align: middle;
 }
 #footer span {
-	font-size: small;
-	font-family: Calibri, Verdana, sans-serif;
 	vertical-align: middle;
 }
