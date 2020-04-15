@@ -1,13 +1,13 @@
 .anythingSlider {
-	width: 760px;
-	height: 360px;
+	width: 880px;
+	height: 643px;
 	position: relative;
 	margin: 15px auto;
 }
 .anythingSlider .wrapper {
-	width: 680px;
+	width: 800px;
 	overflow: auto;
-	height: 341px;
+	height: 624px;
 	margin: 0 40px;
 	position: absolute;
 	top: 0; left: 0;
@@ -17,26 +17,44 @@
 	list-style: none;
 	position: absolute;
 	top: 0; left: 0;
-	background-color: white;
+	background-color: #eee;
 	background-image: url(../images/bg02.png);
 	border-width: 3px 0;
 	border-style: solid;
-	border-color: #eee;
+	border-color: Silver;
 	margin: 0;
 }
 .anythingSlider ul li {
 	display: block;
 	float: left;
 	padding: 0;
-	height: 317px;
-	width: 680px;
+	height: 600px;
+	width: 800px;
 	margin: 0;
-	vertical-align: middle;
 	text-align: center;
+	font-family: Georgia, serif;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 .anythingSlider ul li img {
-	height: 317px;
+	height: 600px;
 	vertical-align: middle;
+}
+.textSlide {
+	padding: 20px;
+	font-size: 2em;
+	vertical-align: middle;
+}
+.textSlide img{
+	margin: 10px;
+	max-width: 250px;
+	max-height: 250px;
+}
+.anythingSlider ul li h1 {
+	color: #33689D;
+	padding: 50px 0;
+}
+.anythingSlider ul li em {
+	color: #535D67;
 }
 .anythingSlider .arrow {
 	display: block;
@@ -45,7 +63,7 @@
 	background: url(../images/arrows.png) no-repeat 0 0;
 	text-indent: -9999px;
 	position: absolute;
-	top: 65px;
+	top: 206px;
 	cursor: pointer;
 }
 .anythingSlider .forward {
@@ -100,7 +118,7 @@
 	font-family: monospace;
 	font-size: small;
 	position: absolute;
-	top: 323px; right: 45px;
+	top: 606px; right: 45px;
 	-moz-border-radius-bottomleft: 5px;
 	-moz-border-radius-bottomright: 5px;
 	-webkit-border-bottom-right-radius: 5px;
