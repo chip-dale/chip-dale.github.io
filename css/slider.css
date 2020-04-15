@@ -35,9 +35,8 @@
 	font-family: Georgia, serif;
 	text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
-.anythingSlider .image {
-	max-width: 800px;
-	max-height: 600px;
+.anythingSlider ul li img {
+	height: 600px;
 	vertical-align: middle;
 }
 .textSlide {
@@ -45,7 +44,7 @@
 	font-size: 2em;
 	vertical-align: middle;
 }
-.textSlide .thumb{
+.textSlide img{
 	margin: 10px;
 	max-width: 250px;
 	max-height: 250px;
