@@ -164,10 +164,12 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 14px;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: Arial, sans-serif;
   line-height: 1em;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
 .lb-data .lb-caption a {
