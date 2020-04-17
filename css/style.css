@@ -99,6 +99,14 @@ a, a img {
 }
 .content {
 	text-align: center;
+	margin: 10px;
+}
+.content h1 {
+	color: white;
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-variant: small-caps;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 .content img {
 	height: 150px;
@@ -108,9 +116,6 @@ a, a img {
 }
 .content img:hover {
 	border: 2px solid #fff;
-}
-#lightboxOverlay, #lightbox {
-	z-index: 1000002;
 }
 #footer {
 	position: fixed; /* Фиксированное положение */

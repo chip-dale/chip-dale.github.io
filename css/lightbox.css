@@ -6,7 +6,7 @@ body.lb-disable-scrolling {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 1000002;
   background-color: black;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
@@ -17,7 +17,7 @@ body.lb-disable-scrolling {
   position: absolute;
   left: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 1000003;
   text-align: center;
   line-height: 0;
   font-weight: normal;
@@ -164,8 +164,9 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
+  font-family: Arial, sans-serif;
   line-height: 1em;
 }
 
@@ -178,6 +179,7 @@ body.lb-disable-scrolling {
   clear: left;
   padding-bottom: 1em;
   font-size: 12px;
+  font-style: italic;
   color: #999999;
 }
 
