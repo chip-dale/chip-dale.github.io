@@ -75,7 +75,7 @@ a, a img {
 	border-color: #1ABC9C;
 }
 #container {
-	width: 100%;
+	width: 1000px;
 	margin: 20px auto 70px; /* Выравнивание по центру */
 }
 #left, #right {
@@ -96,6 +96,21 @@ a, a img {
 	background-color: white/*#E6E6FA*/;
 	background-image: url(../images/bg02.png);
 	border-radius: 10px;
+}
+.content {
+	text-align: center;
+}
+.content img {
+	height: 150px;
+	margin: 10px;
+	border: 2px solid Silver;
+	padding: 2px;
+}
+.content img:hover {
+	border: 2px solid #fff;
+}
+#lightboxOverlay, #lightbox {
+	z-index: 1000002;
 }
 #footer {
 	position: fixed; /* Фиксированное положение */
