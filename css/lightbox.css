@@ -85,6 +85,44 @@ body.lb-disable-scrolling {
   z-index: 10;
 }
 
+.lb-container {
+  position: relative;
+}
+.picSize, .picPrice, .sale {
+  position: absolute;
+  right:50px;
+  margin: 0;
+  padding: 1em;
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  border:0; border-radius: 8px;
+}
+.picSize {
+	top:50px;
+  color: #33689D;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #535D67;
+  background: rgba(255, 255, 255, 0.8);
+}
+.picPrice, .sale {
+	bottom:50px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+.picPrice {
+  background: rgba(26, 188, 156, 0.7);
+}
+.sale {
+  background: rgba(255, 0, 0, 0.7);
+}
+.sale i {
+  color: black;
+  font-weight: normal;
+  font-size: 0.8em;
+  text-decoration: line-through;
+}
+
 .lb-container > .nav {
   left: 0;
 }
@@ -168,17 +206,9 @@ body.lb-disable-scrolling {
   font-weight: bold;
   font-family: Arial, sans-serif;
   line-height: 1em;
-  color: #1ABC9C;
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
-}
-
-.lb-data .lb-caption em {
-  color: white;
-  font-weight: normal;
-}
-
-.lb-data .lb-caption b {
-  color: ;
+  color: #ccc;
+  /*text-shadow: 1px 1px 2px black, 0 0 1em red;*/
+  text-shadow: 0 0 1em #999;
 }
 
 .lb-data .lb-caption a {
