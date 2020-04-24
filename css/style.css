@@ -23,6 +23,7 @@ a, a img {
 	-webkit-background-size: 100% auto !important;
 	-o-background-size: 100% auto !important;
 	-moz-background-size: 100% auto !important;
+	-ms-background-size: 100% auto !important;
 	background-attachment: fixed;
 	text-align: center;
 	position: relative;
@@ -69,8 +70,8 @@ a, a img {
 	color: white;
 	border-color: #535D67;
 }
-#nav ul li a:active { /* ссылка при нажатии */
-	background: #535D67;
+#nav ul li a:active, #nav ul li a.active { /* ссылка при нажатии + активная ссылка страницы */
+	background: rgba(83, 93, 103, 0.7)/*#535D67*/;
 	color: #1ABC9C;
 	border-color: #1ABC9C;
 }
@@ -89,32 +90,52 @@ a, a img {
 #right {
 	float: right; /* Обтекание по правому краю */
 }
-#content {
-	margin: 10px 220px; /* Отступ на ширину левой и правой колонки*/
-	padding: 10px; /* Поля вокруг текста */
-	/*background: rgba(255, 255, 255, 0.8); /* white */
-	background-color: white/*#E6E6FA*/;
-	background-image: url(../images/bg02.png);
-	border-radius: 10px;
-}
-.content {
+
+.wrapperGallery {
 	text-align: center;
-	margin: 10px;
+	margin: 30px 0 10px;
 }
-.content h1 {
+.wrapperGallery .tabs {
+	margin: 10px;
+	padding: 10px;
+	border-width: 0 0 2px;
+	border-style: solid;
+	border-color: white;
+}
+.wrapperGallery .tab {
+	margin: 0;
+	padding: 10px 20px;
 	color: white;
+	background: #535D67;
+	font-size: 2em;
+	font-weight: bold;
 	font-family: Georgia, serif;
 	font-style: italic;
-	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	text-shadow: 1px 1px 2px black/*, 0 0 1em red*/;
+	border-width: 0 0 1px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 6px 6px 0 0;
+	cursor: pointer;
 }
-.content img {
+.wrapperGallery .tab_item {
+	margin: 10px;
+	padding: 0px;
+}
+.wrapperGallery .tab_item img {
 	height: 150px;
 	margin: 10px;
 	border: 2px solid Silver;
 	padding: 2px;
 }
-.content img:hover {
+.wrapperGallery .tab_item img:hover {
 	border: 2px solid #fff;
+}
+.wrapperGallery .active {
+	margin-top: 5px;
+	color: #33689D;
+	background: white;
+	border-width: 5px 5px 1px;
 }
 #footer {
 	position: fixed; /* Фиксированное положение */
