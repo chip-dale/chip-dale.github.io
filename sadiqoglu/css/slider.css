@@ -1,0 +1,148 @@
+.anythingSlider {
+	width: 880px;
+	height: 643px;
+	position: relative;
+	margin: 15px auto;
+}
+.anythingSlider .wrapper {
+	width: 800px;
+	overflow: auto;
+	height: 624px;
+	margin: 0 40px;
+	position: absolute;
+	top: 0; left: 0;
+}
+.anythingSlider .wrapper ul {
+	width: 9999px;
+	list-style: none;
+	position: absolute;
+	top: 0; left: 0;
+	background-color: #eee;
+	background-image: url(../images/bg02.png);
+	border-width: 3px 0;
+	border-style: solid;
+	border-color: Silver;
+	margin: 0;
+}
+.anythingSlider ul li {
+	display: block;
+	float: left;
+	padding: 0;
+	height: 600px;
+	width: 800px;
+	margin: 0;
+	text-align: center;
+	font-family: Georgia, serif;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.anythingSlider ul li img {
+	height: 600px;
+	vertical-align: middle;
+}
+.textSlide {
+	padding: 20px;
+	font-size: 2em;
+	vertical-align: middle;
+}
+.textSlide img{
+	margin: 10px;
+	max-width: 250px;
+	max-height: 250px;
+}
+.anythingSlider ul li h1 {
+	color: #33689D;
+	padding: 50px 0;
+}
+.anythingSlider ul li em {
+	color: #535D67;
+}
+.anythingSlider .arrow {
+	display: block;
+	height: 200px;
+	width: 67px;
+	background: url(../images/arrows.png) no-repeat 0 0;
+	text-indent: -9999px;
+	position: absolute;
+	top: 206px;
+	cursor: pointer;
+}
+.anythingSlider .forward {
+	background-position: 0 0;
+	right: -20px;
+}
+.anythingSlider .back {
+	background-position: -67px 0;
+	left: -20px;
+}
+.anythingSlider .forward:hover {
+	background-position: 0 -200px;
+}
+.anythingSlider .back:hover {
+	background-position: -67px -200px;
+}
+
+#thumbNav {
+	position: relative;
+	top: 323px;
+	text-align: center;
+}
+#thumbNav a {
+	color: black;
+	font: 11px/18px Georgia, serif;
+	display: inline-block;
+	padding: 2px 8px;
+	height: 18px;
+	margin: 0 5px 0 0;
+	background: #c58b04 url(../images/cellshade.png) repeat-x;
+	text-align: center;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+#thumbNav a:hover {
+	background-image: none;
+}
+#thumbNav a.cur {
+	background: #e0a213;
+}
+
+#start-stop {
+	background: green;
+	background-image: url(../images/cellshade.png);
+	background-repeat: repeat-x;
+	color: white;
+	padding: 2px 5px;
+	width: 40px;
+	text-align: center;
+	font-family: Calibri, monospace;
+	font-size: small;
+	position: absolute;
+	top: 606px; right: 45px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+#start-stop.playing {
+	background-color: red;
+}
+#start-stop:hover {
+	background-image: none;
+}
+
+	/* Prevents */
+.anythingSlider .wrapper ul ul {
+	position: static;
+	margin: 0;
+	background: none;
+	overflow: visible;
+	width: auto;
+	border: 0;
+}
+.anythingSlider .wrapper ul ul li {
+	float: none;
+	height: auto;
+	width: auto;
+	background: none;
+}
