@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #33689D;
+	width: 100%;
+	font-family: Times New Roman, serif;
+	font-size: 12pt;
+}
+a, a img {
+	border: 0;
+	text-decoration: none;
+	outline: 0;
+}
+#header {
+	color: white;
+	height: 250px;
+	background-image: url(../images/bg.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100% auto !important;
+	-webkit-background-size: 100% auto !important;
+	-o-background-size: 100% auto !important;
+	-moz-background-size: 100% auto !important;
+	-ms-background-size: 100% auto !important;
+	background-attachment: fixed;
+	text-align: center;
+	position: relative;
+}
+#logo{
+	width: 120px;
+	position: absolute;
+	left: 60px; bottom: 60px;
+}
+#name{
+	width: 400px;
+	margin: 30px auto 0;
+}
+#nav {
+	display: block;
+	width: 100%;
+	position: fixed;
+	left: 0px; top: 200px;
+	background: rgba(83, 93, 103, 0.7);
+	z-index: 1000000;
+}
+#nav ul {
+	margin: 0px auto;
+}
+#nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+#nav ul li a {
+	padding: 1em;
+	display: block;
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 8px;
+	text-shadow: 1px 1px 2px black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+}
+#nav ul li a:hover { /* ссылка при наведении */
+	background: rgba(26, 188, 156, 0.7) /* #1ABC9C */;
+	color: white;
+	border-color: #535D67;
+}
+#nav ul li a:active, #nav ul li a.active { /* ссылка при нажатии + активная ссылка страницы */
+	background: rgba(83, 93, 103, 0.7)/*#535D67*/;
+	color: #1ABC9C;
+	border-color: #1ABC9C;
+}
+#container {
+	width: 1000px;
+	margin: 20px auto 70px; /* Выравнивание по центру */
+}
+#left, #right {
+	width: 200px;
+	margin: 5px; /* Отступы вокруг текста */
+	text-align:center;
+}
+#left {
+	float: left; /* Обтекание по правому краю */
+}
+#right {
+	float: right; /* Обтекание по правому краю */
+}
+
+.wrapperGallery {
+	text-align: center;
+	margin: 30px 0 10px;
+}
+.wrapperGallery .tabs {
+	margin: 10px;
+	padding: 10px;
+	border-width: 0 0 2px;
+	border-style: solid;
+	border-color: white;
+}
+.wrapperGallery .tab {
+	margin: 0;
+	padding: 10px 20px;
+	color: white;
+	background: #535D67;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-shadow: 1px 1px 2px black/*, 0 0 1em red*/;
+	border-width: 0 0 1px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 6px 6px 0 0;
+	cursor: pointer;
+}
+.wrapperGallery .tab_item {
+	margin: 10px;
+	padding: 0px;
+}
+.wrapperGallery .tab_item img {
+	height: 150px;
+	margin: 10px;
+	border: 2px solid Silver;
+	padding: 2px;
+}
+.wrapperGallery .tab_item img:hover {
+	border: 2px solid #fff;
+}
+.wrapperGallery .active {
+	margin-top: 5px;
+	color: #33689D;
+	background: white;
+	border-width: 5px 5px 1px;
+}
+#footer {
+	position: fixed; /* Фиксированное положение */
+	left: 0; bottom: 0; /* Левый нижний угол */
+	padding: 10px 0;
+	background-color: #33689D;
+	border-width: 1px 0 0;
+	border-style: solid;
+	border-color: /*#535D67*/white;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: small;
+	font-family: Calibri, Verdana, sans-serif;
+	z-index: 1000001;
+}
+#footer a img {
+	height: 25px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+#footer span {
+	vertical-align: middle;
+}
