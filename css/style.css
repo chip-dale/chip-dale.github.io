@@ -14,9 +14,9 @@
 	-ms-flex-direction:column;
 	flex-direction:column;
 	background-color:#ccc;
+	background-image:url("https://www.pikpng.com/pngl/b/595-5957291_pixel-patterns-light-red-polk-a-dot-background.png");
 }
 .container{
 	max-width:1000px;
 	margin:0 auto;
-	background-image:url("https://www.pikpng.com/pngl/b/595-5957291_pixel-patterns-light-red-polk-a-dot-background.png");
 }
