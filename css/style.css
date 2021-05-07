@@ -13,7 +13,7 @@
 	-moz-box-direction:normal;
 	-ms-flex-direction:column;
 	flex-direction:column;
-	background-color:#111;
+	background-color:#ccc;
 }
 .container{
 	max-width:1280px;
