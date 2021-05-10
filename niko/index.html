@@ -59,7 +59,7 @@ h1 {
 
 <h1 id="text">HELLO AMIGO :-)</h1>
 
-<button onclick="Alert.render('HAPPY BIRTHDAY');this.hidden=true;">CLICK BUTTON</button>
+<button onclick="Alert.render('HAPPY BIRTHDAY');this.hidden=true;" style="padding:10px 20px;">CLICK BUTTON</button>
 
 <div id="img" style="display: none;"><img src="https://purepng.com/public/uploads/thumbnail//purepng.com-super-mario-runningmariofictional-charactervideo-gamefranchisenintendodesigner-1701528623599usykb.png" alt="Mario"></div>
 
@@ -77,7 +77,7 @@ h1 {
 		dialogbox.style.display = "block";
 		document.getElementById('dialogboxhead').innerHTML = "Congratulations!";
 		document.getElementById('dialogboxbody').innerHTML = dialog;
-		document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()"><img src="https://cdn.jsdelivr.net/npm/emoji-datasource-emojione@4.0.4/img/emojione/64/1f382.png" alt="cake" style="vertical-align: middle;"> yum-yum))</button>';
+		document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()" style="height: 90px;"><img src="https://cdn.jsdelivr.net/npm/emoji-datasource-emojione@4.0.4/img/emojione/64/1f382.png" alt="cake" style="vertical-align: middle;"> yum-yum))</button>';
 	    }
 	    this.ok = function(){
 		document.getElementById('dialogbox').style.display = "none";
